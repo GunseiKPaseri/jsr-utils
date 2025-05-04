@@ -15,4 +15,4 @@ jobs:
           deno-version: ${{ env.DENO_VERSION }}
       - name: Run test
         run: |
-          deno testcheck
+          deno task testcheck
